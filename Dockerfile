@@ -29,6 +29,8 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" > /etc/apk/repositorie
     ttf-freefont \
     font-noto-emoji \
     wqy-zenhei \
+    tini make gcc g++ python3 nodejs nodejs-npm \
+    alsa-utils alsa-oss pulseaudio pulseaudio-utils \
     && rm -rf /var/cache/* \
     && mkdir /var/cache/apk
 
